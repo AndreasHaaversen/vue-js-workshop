@@ -12,7 +12,7 @@
       <label for="price">Price</label>
       <input type="number" v-model="product.price" class="form-control" id="price" placeholder="Enter Price" number>
     </div>
-    <button type="submit" v-on:click.prevent="onSubmit" class="btn btn-primary"></button>
+    <button type="submit" v-on:click.prevent="onSubmit" class="btn btn-primary">Save product</button>
   </form>
 </template>
 
